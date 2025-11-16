@@ -22,7 +22,7 @@ const InfoSection = ({ id, title, subtitle, image }) => {
         <img
           src={image}
           alt={title}
-          className="h-[200px] sm:h-[250px] md:h-[300px] w-full sm:w-[90%] shadow-md object-cover"
+          className="h-[250px]  md:h-[350px] w-full  shadow-md object-cover"
         />
       </div>
     </section>

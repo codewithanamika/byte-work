@@ -26,7 +26,7 @@ const Contact = () => {
         <p className="playfair font-bold text-xl sm:text-2xl md:text-3xl">
           we're here for you
         </p>
-        <p className="mt-1 text-xs sm:text-sm md:text-base text-gray-600">
+        <p className="mt-1 text-xs sm:text-sm md:text-base text-gray-600 tracking-wide">
           At Luxury Hotels, we take our customers seriously. Do you have any
           enquiries, complaints or requests, please forward it to our support
           desk and we will get back to you as soon as possible.
@@ -42,7 +42,7 @@ const Contact = () => {
               href="https://www.google.com/maps/place/Times+Square,+New+York,+NY"
               target="_blank"
               rel="noreferrer"
-              className="underline"
+              className="hover:underline"
             >
               view map
             </a>
