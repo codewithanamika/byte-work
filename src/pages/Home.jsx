@@ -2,7 +2,6 @@ import React from "react";
 import Hero from "../components/Hero";
 import heroimage from "../assets/home-image.webp";
 import HomeInfo from "../components/Homeinfo.jsx";
-import Button from "../components/Button.jsx";
 import Testimonials from "../components/Testimonials.jsx";
 
 const Home = () => {

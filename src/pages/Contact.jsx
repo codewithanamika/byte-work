@@ -1,20 +1,9 @@
-import React, { useState } from "react";
 import Button from "../components/Button";
+import { useContactForm } from "../hooks/useContactForm";
 
-const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    address: "",
-    message: "",
-  });
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form Data:", formData);
-    alert("message sent");
-  };
+export default function Contact() {
+  const { formData, handleChange, handleSubmit } = useContactForm();
+
   return (
     <div>
       <div className="bg-blue-950 h-40 sm:h-48 md:h-60 w-full relative">
@@ -142,6 +131,4 @@ const Contact = () => {
       </div>
     </div>
   );
-};
-
-export default Contact;
+}

@@ -1,7 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
 import heroimage from "../assets/home-image.webp";
-import Button from "../components/Button";
 import Testimonials from "../components/Testimonials.jsx";
 import RoomSlider from "../components/RoomSlider.jsx";
 

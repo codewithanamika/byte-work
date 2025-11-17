@@ -29,12 +29,6 @@ const Footer = () => {
 
           <div className="flex flex-col space-y-2">
             <Link
-              to="/about"
-              className="hover:text-gray-200 transition text-xs sm:text-sm"
-            >
-              About Us
-            </Link>
-            <Link
               to="/contact"
               className="hover:text-gray-200 transition text-xs sm:text-sm"
             >
